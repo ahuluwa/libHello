@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'libHello_Example' do
+  pod 'libHello', :path => '../'
+
+  target 'libHello_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
