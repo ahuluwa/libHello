@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		18164BE259356CA388FA57E4AF1BA10B /* Pods-libHello_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B02D992F2BEE9AE150AC480E9A49983 /* Pods-libHello_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		660CFF41C9EBC6D6B70EBCD3766168AF /* libHello-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E95381ED662B32D2E3F3C7BA9766D3DB /* libHello-dummy.m */; };
+		3B4966B8D4210267CB0108DC22B23405 /* libHello-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E95381ED662B32D2E3F3C7BA9766D3DB /* libHello-dummy.m */; };
+		57FD7FF6064248BBDDFC5BB97B28CD51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		716BB1FA1BE6A756AAF4B244F4C424D5 /* Pods-libHello_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FF6D775B0E7C3744581A3C10A68D /* Pods-libHello_Example-dummy.m */; };
 		7F1BF86D0530D10EF327B3FBA2D1D03E /* Pods-libHello_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E48B009152EEC285439462FF6BF1A32 /* Pods-libHello_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DE9287D0252C5B7CCD2A9B0A8BCE3A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD891DACB87766A098C9760E7894899 /* ReplaceMe.m */; };
-		8FC03114881111067D39840C3F73C441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		95F12DAE2EB3908A67BC197EA605A36B /* libHello-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DAAF27E25D03DB0B1D53A8F29F1F349 /* libHello-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98B1F4557FC2560BDAA643825F640A42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AB26388C9A118C5EACDE77F560F4CFC5 /* libHello-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DAAF27E25D03DB0B1D53A8F29F1F349 /* libHello-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDB8E234E7DA2F7624531990B8C21604 /* Pods-libHello_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B4430E74CB985E7CD59A4BB4511E47 /* Pods-libHello_Tests-dummy.m */; };
+		C799687F5B2154C8719C04C02CB75FE9 /* HLWHello.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E0BCC58AECE0B6792492F3FE9ADF51 /* HLWHello.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA647560A6E54F38B5D15F149B194B6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D1D42F847C3007B4C1B7DB28A9DA9703 /* HLWHello.m in Sources */ = {isa = PBXBuildFile; fileRef = DD89F1D1D592C1D4C785013D7025DB34 /* HLWHello.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 546ED2CB1E793C90D7EEDAD8C10145C0;
+			remoteGlobalIDString = 56F15043AFD9F9947DA0D4A64EEF59F1;
 			remoteInfo = libHello;
 		};
 /* End PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4B741C71411D3F4DBD1200D1E212738E /* Pods-libHello_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libHello_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		51F21774D2877306AB5FF0E78BC8B0EA /* Pods_libHello_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libHello_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5447803E3A36FD1801C11DC03EB609FB /* libHello.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = libHello.modulemap; sourceTree = "<group>"; };
+		57E0BCC58AECE0B6792492F3FE9ADF51 /* HLWHello.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HLWHello.h; sourceTree = "<group>"; };
 		599AE0864934C0FD0E1002FC5DFE0700 /* Pods-libHello_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libHello_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		642765BE00383E9C76B781C394BF2881 /* Pods-libHello_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libHello_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		65FC263BF8C58EB3CCF217659B96A3D1 /* Pods-libHello_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-libHello_Tests.modulemap"; sourceTree = "<group>"; };
@@ -58,9 +60,9 @@
 		B0867CCB2AC62A46A60CCC68BF0EEBE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0DBFE7B2F2742C8FBFC6FEA99B7C374 /* libHello.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libHello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2BDEE5983C6741585D52314823FAACE /* Pods-libHello_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libHello_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BFD891DACB87766A098C9760E7894899 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		C80D7968FF5F8FF079AF5F9985C21CEA /* libHello.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libHello.xcconfig; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD89F1D1D592C1D4C785013D7025DB34 /* HLWHello.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HLWHello.m; sourceTree = "<group>"; };
 		E95381ED662B32D2E3F3C7BA9766D3DB /* libHello-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libHello-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C80CADF59B0CEF861F43A8EC250B8B37 /* Frameworks */ = {
+		E6C6A7AE5B6772F31C92646541C361A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC03114881111067D39840C3F73C441 /* Foundation.framework in Frameworks */,
+				57FD7FF6064248BBDDFC5BB97B28CD51 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,19 +106,11 @@
 		3AEDE6A95832014B454984FFCA9EC773 /* libHello */ = {
 			isa = PBXGroup;
 			children = (
-				6F13E16EE4A5E8A783AB3887F0C6C581 /* libHello */,
+				7DCCADB4A5A5A2D72CF12A109C922E3D /* libHello */,
 				ACE1EFBCF64F2FEF93E2835827288AFB /* Support Files */,
 			);
 			name = libHello;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		3CD7F813227933E342F0AF7EFBA99BF4 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BFD891DACB87766A098C9760E7894899 /* ReplaceMe.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -135,12 +129,13 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6F13E16EE4A5E8A783AB3887F0C6C581 /* libHello */ = {
+		64FC1CA66D15D8544BF3A6C31FA9A9E5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3CD7F813227933E342F0AF7EFBA99BF4 /* Classes */,
+				57E0BCC58AECE0B6792492F3FE9ADF51 /* HLWHello.h */,
+				DD89F1D1D592C1D4C785013D7025DB34 /* HLWHello.m */,
 			);
-			path = libHello;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -152,6 +147,14 @@
 				D0D930A85090BF27E9BD1AACBE923214 /* Products */,
 				1D76947FE69C44529CBA3FC5D41EDFA6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7DCCADB4A5A5A2D72CF12A109C922E3D /* libHello */ = {
+			isa = PBXGroup;
+			children = (
+				64FC1CA66D15D8544BF3A6C31FA9A9E5 /* Classes */,
+			);
+			path = libHello;
 			sourceTree = "<group>";
 		};
 		84EE5C78C3C73627F219EB41C623AD92 /* Pods-libHello_Tests */ = {
@@ -233,14 +236,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C4F4C8DD12A3DE00922A6DBAE92C8FA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95F12DAE2EB3908A67BC197EA605A36B /* libHello-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2059F0E37884D3C2A5E56F483FE133CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,16 +244,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F1E27EFB2092DD968C09E46B3D6CA27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C799687F5B2154C8719C04C02CB75FE9 /* HLWHello.h in Headers */,
+				AB26388C9A118C5EACDE77F560F4CFC5 /* libHello-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		546ED2CB1E793C90D7EEDAD8C10145C0 /* libHello */ = {
+		56F15043AFD9F9947DA0D4A64EEF59F1 /* libHello */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D50483FFB3EE536D1F66D204F67E4CB5 /* Build configuration list for PBXNativeTarget "libHello" */;
+			buildConfigurationList = FE803BC53D74B5648B9D33533D48FB65 /* Build configuration list for PBXNativeTarget "libHello" */;
 			buildPhases = (
-				B6F9546EA0E2734E66A2E3FBD3F8F125 /* Sources */,
-				C80CADF59B0CEF861F43A8EC250B8B37 /* Frameworks */,
-				1C4F4C8DD12A3DE00922A6DBAE92C8FA /* Headers */,
+				944E51BED0A30E635A934817B8702BC6 /* Sources */,
+				E6C6A7AE5B6772F31C92646541C361A2 /* Frameworks */,
+				8F1E27EFB2092DD968C09E46B3D6CA27 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -325,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				546ED2CB1E793C90D7EEDAD8C10145C0 /* libHello */,
+				56F15043AFD9F9947DA0D4A64EEF59F1 /* libHello */,
 				B60CF550AF05D778DC9B2315AF236908 /* Pods-libHello_Example */,
 				927410218E55BC6F022ED085DA791DAF /* Pods-libHello_Tests */,
 			);
@@ -341,12 +345,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6F9546EA0E2734E66A2E3FBD3F8F125 /* Sources */ = {
+		944E51BED0A30E635A934817B8702BC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660CFF41C9EBC6D6B70EBCD3766168AF /* libHello-dummy.m in Sources */,
-				84DE9287D0252C5B7CCD2A9B0A8BCE3A /* ReplaceMe.m in Sources */,
+				D1D42F847C3007B4C1B7DB28A9DA9703 /* HLWHello.m in Sources */,
+				3B4966B8D4210267CB0108DC22B23405 /* libHello-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +368,7 @@
 		0D224EB6C20E27B3CA5191C59652D8F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libHello;
-			target = 546ED2CB1E793C90D7EEDAD8C10145C0 /* libHello */;
+			target = 56F15043AFD9F9947DA0D4A64EEF59F1 /* libHello */;
 			targetProxy = 3E89392DAC3E85E96403168228AE1676 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,7 +412,7 @@
 			};
 			name = Release;
 		};
-		2EEAD752545C4DF6F3A26D834D83708F /* Debug */ = {
+		59657DE3B6C1E0F83D67916BFE2B809E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C80D7968FF5F8FF079AF5F9985C21CEA /* libHello.xcconfig */;
 			buildSettings = {
@@ -470,6 +474,35 @@
 			};
 			name = Debug;
 		};
+		71B2EB57529CC1D384492CF4C8EDD599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80D7968FF5F8FF079AF5F9985C21CEA /* libHello.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/libHello/libHello-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libHello/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libHello/libHello.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = libHello;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8B4E29C5D168580F0DA39B5D9121EBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28A34CC562287C0F20E791CD488F7C78 /* Pods-libHello_Tests.debug.xcconfig */;
@@ -502,35 +535,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		90BDDC69BD599633E45904D8C9DBE0E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C80D7968FF5F8FF079AF5F9985C21CEA /* libHello.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/libHello/libHello-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libHello/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/libHello/libHello.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = libHello;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -670,11 +674,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D50483FFB3EE536D1F66D204F67E4CB5 /* Build configuration list for PBXNativeTarget "libHello" */ = {
+		FE803BC53D74B5648B9D33533D48FB65 /* Build configuration list for PBXNativeTarget "libHello" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2EEAD752545C4DF6F3A26D834D83708F /* Debug */,
-				90BDDC69BD599633E45904D8C9DBE0E1 /* Release */,
+				59657DE3B6C1E0F83D67916BFE2B809E /* Debug */,
+				71B2EB57529CC1D384492CF4C8EDD599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

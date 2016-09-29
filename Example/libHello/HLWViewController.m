@@ -7,6 +7,7 @@
 //
 
 #import "HLWViewController.h"
+#import <libHello/HLWHello.h>
 
 @interface HLWViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    HLWHello *hello = [HLWHello new];
+    [hello print];
+    
 }
 
 - (void)didReceiveMemoryWarning

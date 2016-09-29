@@ -1,9 +1,9 @@
 {
   "name": "libHello",
   "version": "0.1.0",
-  "summary": "A short description of libHello.",
+  "summary": "my first cocoapods lib",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/libHello",
+  "homepage": "https://github.com/ahuluwa/libHello.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
