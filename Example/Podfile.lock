@@ -1,0 +1,16 @@
+PODS:
+  - libHello (0.1.0)
+
+DEPENDENCIES:
+  - libHello (from `../`)
+
+EXTERNAL SOURCES:
+  libHello:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libHello: 9e101beeb410fab0a6de1453afbc7b500ebf4158
+
+PODFILE CHECKSUM: d8110c288958758a290713bc246d40a411939ffc
+
+COCOAPODS: 1.0.1
